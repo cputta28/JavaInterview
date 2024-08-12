@@ -1,0 +1,15 @@
+package in.winny.classes;
+
+public class ClassObjects_3 {
+	static int a = 50;
+	 
+    static
+    {
+        a = 50;
+    }
+ 
+    static
+    {
+        a = 50;
+    }
+}

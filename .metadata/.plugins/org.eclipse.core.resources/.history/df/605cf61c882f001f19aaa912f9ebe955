@@ -1,0 +1,14 @@
+package in.winny.collections;
+
+import java.util.LinkedList;
+
+public class LinkedDemo {
+	public static void main(String[] args) {
+LinkedList<Integer>ll=new LinkedList<>();
+
+ll.add(new LinkedDemo(23));
+ll.add(new LinkedDemo(45));
+ll.add(new LinkedDemo(54));
+ll.add(new LinkedDemo(24));
+	}
+}

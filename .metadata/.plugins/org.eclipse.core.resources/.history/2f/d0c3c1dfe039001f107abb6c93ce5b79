@@ -1,0 +1,16 @@
+package in.winny.exceptions;
+
+public class ExceptionDemo {
+	public static void main(String[] args) {
+		System.out.println("Hello Starting");
+		int fNumber = 9;
+		int lNumber = 0;
+		 
+		int result =0;
+		
+		result=fNumber/lNumber;
+		System.out.println(result);
+		System.out.println("Hello Ending");
+	}
+
+}

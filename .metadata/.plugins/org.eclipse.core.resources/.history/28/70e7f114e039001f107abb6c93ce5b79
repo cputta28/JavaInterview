@@ -1,0 +1,15 @@
+package in.winny.exceptions;
+
+public class ExceptionDemo {
+	public static void main(String[] args) {
+		System.out.println("Hello");
+		int fNumber = 9;
+		int lNumber = 1;
+		 
+		int result =0;
+		
+		result=fNumber/lNumber;
+		System.out.println(result);
+	}
+
+}

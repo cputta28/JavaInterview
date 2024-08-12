@@ -1,0 +1,27 @@
+package in.winny.classes;
+
+public class ClassObjects_8 {
+	{
+        System.out.println("First");
+    }
+ 
+    {
+        System.out.println("Second");
+    }
+ 
+    {
+        System.out.println("Third");
+    }
+ 
+    public ClassObjects_8()
+    {
+        System.out.println("Fourth");
+    }
+ 
+    public static void main(String[] args)
+    {
+        System.out.println("Fifth");
+ 
+        ClassObjects_8 a = new ClassObjects_8();
+    }
+}

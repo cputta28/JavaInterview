@@ -1,0 +1,19 @@
+package in.winny.collections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayListDemo {
+	int a;
+	String name;
+	public ArrayListDemo(int a, String name) {
+		this.a=a;
+		this.name=name;
+	}
+public static void main(String[] args) {
+	
+
+	List<Integer,String> al= new ArrayList<>();
+	al.add()
+}
+}

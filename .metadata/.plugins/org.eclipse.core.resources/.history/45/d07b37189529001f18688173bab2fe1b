@@ -1,0 +1,29 @@
+package in.winny.inheritance;
+
+public class Inheritance_3 {
+	{
+        System.out.println(1);
+    }
+}
+ 
+class B extends Inheritance_3
+{
+    {
+        System.out.println(2);
+    }
+}
+ 
+class C extends B
+{
+    {
+        System.out.println(3);
+    }
+}
+ 
+  class MainClass
+{
+    public static void main(String[] args)
+    {
+        C c = new C();
+    }
+}

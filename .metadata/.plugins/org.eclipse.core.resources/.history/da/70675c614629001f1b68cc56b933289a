@@ -1,0 +1,24 @@
+package in.winny.classes;
+
+public class ClassObjects_21 {
+	  char c = 'A';
+	  
+	    {
+	        c = 'B';
+	    }
+	 
+	    public ClassObjects_21(char c)
+	    {
+	        this.c = c;
+	    }
+	}
+	 
+	  class ClassTwo
+	{
+	    public static void main(String[] args)
+	    {
+	    	ClassObjects_21 one = new ClassObjects_21('Z');
+	 
+	        System.out.println(one.c);
+	    }
+}

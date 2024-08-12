@@ -1,0 +1,10 @@
+package in.winny.classes;
+
+public class ClassObjects_16 {
+	 {
+	        System.out.println(i);//Cannot reference a field before it is defined
+	    }
+	 
+	    int i = 10;
+	    
+}
